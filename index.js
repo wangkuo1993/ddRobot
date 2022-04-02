@@ -24,7 +24,7 @@ const job = new CronJob(
     },
     null,
     true,
-    'America/Los_Angeles'
+    'Asia/Shanghai'
 )
 // 发送消息
 job.start()
