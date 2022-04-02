@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start ./ --name dingding",
+    "stop": "pm2 stop dingding",
+    "clear": "pm2 delete all"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cron": "^1.8.2",
+    "pm2": "^5.2.0",
+    "prettier": "^2.6.1",
     "request": "^2.88.2"
   }
 }
