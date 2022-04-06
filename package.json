@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "cron": "^1.8.2",
+    "crypto": "^1.0.1",
     "pm2": "^5.2.0",
     "prettier": "^2.6.1",
     "request": "^2.88.2"
